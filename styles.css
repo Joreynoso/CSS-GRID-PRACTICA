@@ -212,3 +212,79 @@ top__content-5{
     margin-right: 20px;
     opacity: 0.9;
 }
+
+/* MAKE IT RESPONSIVE! ========================================= */
+@media only screen and (max-width: 1300px) {
+
+    .about-me .line{
+        height: 2px;
+        width: 200px;
+    }    
+
+    .mid__content-1-logo img{
+        width: 300px;
+    }
+  }
+
+  @media only screen and (max-width: 1150px) {
+
+    .about-me .line{
+        height: 2px;
+        width: 150px;
+    }    
+
+    .mid__content-1-logo img{
+        width: 200px;
+    }
+  }
+
+  @media only screen and (max-width: 1070px) {
+
+    .about-me .line{
+        height: 2px;
+        width: 75px;
+    }    
+
+    .mid__content-1-logo img{
+        width: 200px;
+    }
+  }
+
+  @media only screen and (max-width: 980px) {
+
+    .bottom__content-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-me .line{
+        display: none;
+    }
+
+    .about-me{
+        margin-top: 10px;
+    }
+
+    .mid__content{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 20px;
+    }
+
+    .top__content{
+        margin: 0 20px 0 20px;
+    }
+  }
+
+  @media only screen and (max-width: 780px) {
+      .top__content{
+          grid-template-columns: 1fr 1fr 1fr;
+      }
+
+      .mid__content{
+        margin: 20px;
+        width: 100%;
+    }
+
+  }
